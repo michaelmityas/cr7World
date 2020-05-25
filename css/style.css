@@ -1,0 +1,422 @@
+/* Start main rules */
+
+body{
+    background-color: rgb(239, 246, 251);
+    color: rgb(250, 248, 248);
+    
+}
+.container{
+    width: 1000;
+    margin: auto;
+}
+
+h2{
+    font-family: cursive;
+    color: rgb(63, 62, 62);
+}
+
+/* End main rules */
+
+/* Start header */
+
+.slider{
+    background-image: url('../images/cr-slider.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 450px;
+    font-family: cursive;
+}
+
+.slider h1{
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    width: 373px;
+    padding: 5px;
+}
+
+.slider .head{
+    padding-top: 150px;
+}
+
+.slider .head button{
+    background: none;
+    color: white;
+    margin: 10px 0 0 130px;
+    padding: 8px 15px;
+}
+
+.navbar{
+    background-color: black;
+    overflow: hidden;
+    font-family: cursive;
+}
+
+.navbar h3{
+    float: left;
+    font-family: cursive;
+}
+
+.navbar h3 span{
+    color: rgb(240, 236, 25);
+    font-family: cursive;
+}
+
+.navbar ul{
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    float: right;
+    font-family: cursive;
+}
+
+.navbar ul li{
+    float: left;
+    padding: 4px 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li.active a,
+.navbar ul li a:hover{
+    color: rgb(240, 236, 25);
+}
+
+/* End header */
+
+/* Start Features */
+
+.features{
+    background-color: white;
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.feat{
+    width: 30%;
+    float: left;
+    color: rgb(119, 119, 119);
+    padding-right: 3%;
+}
+
+.features .feat p{
+    line-height: 1.4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* End Features */
+
+/* Start About Me */
+
+.about-me{
+    overflow: hidden;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-me .image{
+    float: left;
+    width: 40%;
+}
+
+.about-me .image img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.about-me .info{
+    float: left;
+    width: 550px;
+    margin: 0px 0 0 45px;
+    color: rgb(112, 112, 112);
+}
+
+.about-me .info p{
+    line-height: 1.4;
+}
+
+.about-me .info .teams{
+    overflow: hidden;
+    font-family: cursive;
+    color: black;
+}
+
+.about-me .info .teams p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1;
+    color: rgb(112, 112, 112);
+}
+
+.about-me .info .teams > div {
+    float: left;
+    width: 50%;
+    min-height: 100px
+}
+
+.about-me .info .teams .content{
+    overflow: hidden;
+}
+
+.about-me .info .teams .content .icon{
+    float: left;
+    width: 20%;
+}
+
+.about-me .info .teams .content .text{
+    float: left;
+    width: 80%;
+}
+
+.about-me .info .teams .icon img {
+    width: 40px;
+    height: 45px;
+    padding-top: 20px;
+}
+
+/* End About Me */
+
+/* Start Skills */
+
+.skills{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    color: black;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.skills .skills-info,
+.skills .skills-value{
+    width: 50%;
+    float: left;
+    color: rgb(112, 112, 112);
+}
+
+.skills .skills-info > p{
+    line-height: 1.4;
+}
+
+.skills .skills-info > button{
+    background: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid rgb(144, 205, 248);
+    padding: 5px 20px;
+}
+
+.skills .skills-value .technique{
+    margin-left: 30px;
+    font-family: cursive;
+}
+
+.skills .skills-value .technique div{
+    background-color: rgb(235, 235, 236);
+    height: 26px;
+}
+
+.skills .skills-value .technique div span{
+    background-color: #24B76E;
+    display: block;
+    height: 16px;
+    color: white;
+    text-align: right;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* End Skills */
+
+/* Start Player profile */
+
+.profile{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: rgb(112, 112, 112);
+    line-height: 1.4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.profile button{
+    background: none;
+    border: 2px solid rgb(144, 205, 248);
+    padding: 5px 20px;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* End Player profile */
+
+/* Start Outside Football */
+
+.player-life{
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: rgb(112, 112, 112);
+    line-height: 1.4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.player-life .outside1{
+    overflow: hidden;
+}
+
+.player-life .outside2{
+    overflow: hidden;
+}
+
+.player-life .outside1 .Outside-Football,
+.player-life .outside1 .Outside-Football-items,
+.player-life .outside2 .personal-life,
+.player-life .outside2 .personal-life-items{
+    float: left;
+    width: 50%
+}
+
+
+.player-life .outside1 .Outside-Football-items img,
+.player-life .outside2 .personal-life-items img{
+    width: 300px;
+    height: 300px;
+    padding-left: 150px;
+    border-radius: 60px;
+    padding-top: 10px;
+}
+
+/* End Outside Football */
+
+/* Start Player words */
+
+.words{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: rgb(137, 138, 136);
+    font-family: cursive;
+}
+
+.words h3{
+    color: rgb(102, 102, 102);
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* End Player words */
+
+/* Start Achievemnets */
+
+.Achievements{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Achievements .achive-images{
+    overflow: hidden;
+}
+
+.Achievements .achive-images > div{
+    float: left;
+    width: 33.3333%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.Achievements .achive-images div img{
+    width: 300;
+    height: 300;
+    border-radius: 10px;
+}
+
+/* End Achievemnets */
+
+/* Start Contact Me */
+
+.contact-me{
+    color: white;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(5, 5, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-me .info{
+    float: left;
+    width: 50%;
+}
+
+.contact-me .form{
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+    padding-top: 20px;
+}
+
+.contact-me .info{
+    color: rgb(173, 173, 173);
+}
+
+.contact-me .info h2{
+    color: white;
+}
+
+.contact-me .info strong{
+    color: rgb(212, 209, 209);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-me .form label{
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-me .form input{
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+.contact-me .form textarea{
+    width: 70%;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.contact-me .form button{
+    display: block;
+    background: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid rgb(144, 205, 248);
+    padding: 5px 20px;
+    color: white;
+}
+
+/* End Contact Me */
+
+/* Start Footer */
+
+.footer{
+    background-color: rgb(161, 117, 6);
+    text-align: center;
+    padding:8px;
+    font-family: cursive;
+}
+
+.footer img{
+    width: 7%;
+    height: 4%;
+    margin-top: 7px;
+}
+
+/* End Footer */
